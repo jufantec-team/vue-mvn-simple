@@ -23,11 +23,11 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        '/java-web/api/': {
+        '/vue-mvn-simple/api/': {
             target: 'http://localhost:8080',
             changeOrigin: true,
             pathRewrite: {
-              '^/api/': '/java-web/api/'
+              '^/api/': '/vue-mvn-simple/api/'
             }
         }
     },
