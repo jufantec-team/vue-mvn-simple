@@ -1,0 +1,2060 @@
+{
+    "routes": [
+        {
+            "name": "测试",
+            "type": "1",
+            "super": "",
+            "m_id": "test",
+            "children": [
+                {
+                    "name": "hello world",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "Hello",
+                    "path": "/welcome/hello",
+                    "template": "/test/hello.vue"
+                },
+                {
+                    "name": "测试页面1",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "test1",
+                    "path": "/welcome/test1",
+                    "template": "/test/test1.vue"
+                },
+                {
+                    "name": "测试页面2",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "test2",
+                    "path": "/welcome/test2",
+                    "template": "/test/test2.vue"
+                },
+                {
+                    "name": "测试页面3",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "test3",
+                    "path": "/welcome/test3",
+                    "template": "/test/test3.vue"
+                },
+                {
+                    "name": "测试页面4",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "test3",
+                    "path": "/welcome/test4",
+                    "template": "/test/test4.vue"
+                },
+                {
+                    "name": "测试js orm",
+                    "type": "0",
+                    "super": "test",
+                    "m_id": "test5",
+                    "path": "/welcome/test5",
+                    "template": "/test/test5.vue"
+                }
+            ]
+        },
+        {
+            "name": "资产管理",
+            "type": "1",
+            "super": "",
+            "m_id": "zcgl",
+            "children": [
+                {
+                    "name": "物资管理",
+                    "type": "1",
+                    "super": "zcgl",
+                    "m_id": "wzgl",
+                    "children": [
+                        {
+                            "name": "协警被装",
+                            "type": "1",
+                            "super": "wzgl",
+                            "m_id": "zc04",
+                            "children": [
+                                {
+                                    "name": "部门协警被装分发管理",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz03",
+                                    "path": "/welcome/wzgl/xjbz03_bm_ff",
+                                    "template": "/wzgl/xjbz03_bm_ff.vue"
+                                },
+                                {
+                                    "name": "我的服装",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz04",
+                                    "path": "/welcome/wzgl/xjbz04_me",
+                                    "template": "/wzgl/xjbz04_me.vue"
+                                },
+                                {
+                                    "name": "协警被装分发管理",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz02",
+                                    "path": "/welcome/wzgl/xjbz02_ff",
+                                    "template": "/wzgl/xjbz02_ff.vue"
+                                },
+                                {
+                                    "name": "部门协警被装管理",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz06",
+                                    "path": "/welcome/wzgl/xjbz03_bm",
+                                    "template": "/wzgl/xjbz03_bm.vue"
+                                },
+                                {
+                                    "name": "协警净体尺寸",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz01",
+                                    "path": "/welcome/wzgl/xjbz01",
+                                    "template": "/wzgl/xjbz01.vue"
+                                },
+                                {
+                                    "name": "我的净体尺寸",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz05",
+                                    "path": "/welcome/wzgl/xjbz05_me",
+                                    "template": "/wzgl/xjbz05_me.vue"
+                                },
+                                {
+                                    "name": "协警被装管理",
+                                    "type": "0",
+                                    "super": "zc04",
+                                    "m_id": "xjbz00",
+                                    "path": "/welcome/wzgl/xjbz00",
+                                    "template": "/wzgl/xjbz00.vue"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "资金管理",
+                            "type": "1",
+                            "super": "wzgl",
+                            "m_id": "zc03",
+                            "children": [
+                                {
+                                    "name": "资金管理",
+                                    "type": "0",
+                                    "super": "zc03",
+                                    "m_id": "gdzc03",
+                                    "path": "/welcome/wzgl/gdzc03",
+                                    "template": "/wzgl/gdzc03.vue"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "资产管理",
+                            "type": "1",
+                            "super": "wzgl",
+                            "m_id": "zc01",
+                            "children": [
+                                {
+                                    "name": "部门固定资产信息",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc02",
+                                    "path": "/welcome/wzgl/gdzc02",
+                                    "template": "/wzgl/gdzc02.vue"
+                                },
+                                {
+                                    "name": "资产分发详情",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc07",
+                                    "path": "/welcome/wzgl/gdzc01_ff-xq",
+                                    "template": "/wzgl/gdzc01_ff-xq.vue"
+                                },
+                                {
+                                    "name": "我的固定资产管理",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc05",
+                                    "path": "/welcome/wzgl/gdzc01_me",
+                                    "template": "/wzgl/gdzc01_me.vue"
+                                },
+                                {
+                                    "name": "资产分发信息",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc04",
+                                    "path": "/welcome/wzgl/gdzc01_ff",
+                                    "template": "/wzgl/gdzc01_ff.vue"
+                                },
+                                {
+                                    "name": "部门固定资产分发",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc06",
+                                    "path": "/welcome/wzgl/gdzc01_bm_ff",
+                                    "template": "/wzgl/gdzc01_bm_ff.vue"
+                                },
+                                {
+                                    "name": "固定资产信息",
+                                    "type": "0",
+                                    "super": "zc01",
+                                    "m_id": "gdzc01",
+                                    "path": "/welcome/wzgl/gdzc01",
+                                    "template": "/wzgl/gdzc01.vue"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "人员管理",
+                    "type": "1",
+                    "super": "zcgl",
+                    "m_id": "rygl",
+                    "children": [
+                        {
+                            "name": "人员信息汇总",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0005",
+                            "path": "/welcome/zcgl/ry0005",
+                            "template": "/zcgl/ry0005.vue"
+                        },
+                        {
+                            "name": "人员信息管理",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0001",
+                            "path": "/welcome/zcgl/ry0001",
+                            "template": "/zcgl/ry0001.vue"
+                        },
+                        {
+                            "name": "不在岗人员查询",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0006",
+                            "path": "/welcome/zcgl/ry0006",
+                            "template": "/zcgl/ry0006.vue"
+                        },
+                        {
+                            "name": "我的信息",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0004",
+                            "path": "/welcome/zcgl/ry0004-me",
+                            "template": "/zcgl/ry0004-me.vue"
+                        },
+                        {
+                            "name": "警员查询",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0002",
+                            "path": "/welcome/zcgl/ry0002",
+                            "template": "/zcgl/ry0002.vue"
+                        },
+                        {
+                            "name": "警员调动",
+                            "type": "0",
+                            "super": "rygl",
+                            "m_id": "ry0003",
+                            "path": "/welcome/zcgl/ry0003",
+                            "template": "/zcgl/ry0003.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "项目管理",
+                    "type": "1",
+                    "super": "zcgl",
+                    "m_id": "xmgl",
+                    "children": [
+                        {
+                            "name": "系统参数",
+                            "type": "1",
+                            "super": "xmgl",
+                            "m_id": "xmcs",
+                            "children": [
+                                {
+                                    "name": "部门信息维护",
+                                    "type": "0",
+                                    "super": "xmcs",
+                                    "m_id": "bmxxgl",
+                                    "path": "/welcome/xmgl/bmxxgl",
+                                    "template": "/xmgl/bmxxgl.vue"
+                                },
+                                {
+                                    "name": "增减方式参数",
+                                    "type": "0",
+                                    "super": "xmcs",
+                                    "m_id": "zjfscs",
+                                    "path": "/welcome/xmgl/zjfscs",
+                                    "template": "/xmgl/zjfscs.vue"
+                                },
+                                {
+                                    "name": "物资种类参数",
+                                    "type": "0",
+                                    "super": "xmcs",
+                                    "m_id": "wzzlcs",
+                                    "path": "/welcome/xmgl/wzzlcs",
+                                    "template": "/xmgl/wzzlcs.vue"
+                                },
+                                {
+                                    "name": "资产种类维护",
+                                    "type": "0",
+                                    "super": "xmcs",
+                                    "m_id": "zbcdgl",
+                                    "path": "/welcome/xmgl/zbcdgl",
+                                    "template": "/xmgl/zbcdgl.vue"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "平台管理",
+            "type": "1",
+            "super": "",
+            "m_id": "pl",
+            "children": [
+                {
+                    "name": "接口测试",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "pl9999",
+                    "path": "/welcome/pl/pl9999",
+                    "template": "/pl/pl9999.vue"
+                },
+                {
+                    "name": "角色管理",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "xm0001",
+                    "path": "/welcome/pl/xm0001",
+                    "template": "/pl/xm0001.vue"
+                },
+                {
+                    "name": "权限下放",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "pl0004",
+                    "path": "/welcome/pl/pl0004",
+                    "template": "/pl/pl0004.vue"
+                },
+                {
+                    "name": "用户权限管理",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "pl0003",
+                    "path": "/welcome/pl/pl0003",
+                    "template": "/pl/pl0003.vue"
+                },
+                {
+                    "name": "用户管理",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "pl0002",
+                    "path": "/welcome/pl/pl0002",
+                    "template": "/pl/pl0002.vue"
+                },
+                {
+                    "name": "部门管理",
+                    "type": "0",
+                    "super": "pl",
+                    "m_id": "pl0001",
+                    "path": "/welcome/pl/pl0001",
+                    "template": "/pl/pl0001.vue"
+                }
+            ]
+        },
+        {
+            "name": "驾驶人管理",
+            "type": "1",
+            "super": "",
+            "m_id": "jsrgl",
+            "children": [
+                {
+                    "name": "驾驶证查询",
+                    "type": "0",
+                    "super": "jsrgl",
+                    "m_id": "jsr001",
+                    "path": "/welcome/jsrgl/jsrgl01",
+                    "template": "/jsrgl/jsrgl01.vue"
+                },
+                {
+                    "name": "未关联驾驶人车辆查询",
+                    "type": "0",
+                    "super": "jsrgl",
+                    "m_id": "jsr003",
+                    "path": "/welcome/jsrgl/jsrgl03",
+                    "template": "/jsrgl/jsrgl03.vue"
+                },
+                {
+                    "name": "注销统计及恢复",
+                    "type": "0",
+                    "super": "jsrgl",
+                    "m_id": "jsr002",
+                    "path": "/welcome/jsrgl/jsrgl02",
+                    "template": "/jsrgl/jsrgl02.vue"
+                }
+            ]
+        },
+        {
+            "name": "网上缴费信息管理",
+            "type": "1",
+            "super": "",
+            "m_id": "jfpj",
+            "children": [
+                {
+                    "name": "网上缴费用户重置",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj02",
+                    "path": "/welcome/jfpj/jfpj02",
+                    "template": "/jfpj/jfpj02.vue"
+                },
+                {
+                    "name": "票据补打",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj04",
+                    "path": "/welcome/jfpj/jfpj04",
+                    "template": "/jfpj/jfpj04.vue"
+                },
+                {
+                    "name": "网上缴费用户冻结",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj07",
+                    "path": "/welcome/jfpj/jfpj07",
+                    "template": "/jfpj/jfpj07.vue"
+                },
+                {
+                    "name": "票据打印",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "fpdy01",
+                    "path": "/welcome/jfpj/fpdy01",
+                    "template": "/jfpj/fpdy01.vue"
+                },
+                {
+                    "name": "作废票据号查询",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj06",
+                    "path": "/welcome/jfpj/jfpj06",
+                    "template": "/jfpj/jfpj06.vue"
+                },
+                {
+                    "name": "票据号作废",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj05",
+                    "path": "/welcome/jfpj/jfpj05",
+                    "template": "/jfpj/jfpj05.vue"
+                },
+                {
+                    "name": "用户重置数据查询",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj03",
+                    "path": "/welcome/jfpj/jfpj03",
+                    "template": "/jfpj/jfpj03.vue"
+                },
+                {
+                    "name": "网上缴费业务数据导出",
+                    "type": "0",
+                    "super": "jfpj",
+                    "m_id": "jfpj01",
+                    "path": "/welcome/jfpj/jfpj01",
+                    "template": "/jfpj/jfpj01.vue"
+                }
+            ]
+        },
+        {
+            "name": "执法监督管理",
+            "type": "1",
+            "super": "",
+            "m_id": "zfjd",
+            "children": [
+                {
+                    "name": "执法视频管理",
+                    "type": "1",
+                    "super": "zfjd",
+                    "m_id": "zfsp",
+                    "children": [
+                        {
+                            "name": "视频统计",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd12",
+                            "path": "/welcome/zfjd/zfjd12",
+                            "template": "/zfjd/zfjd12.vue"
+                        },
+                        {
+                            "name": "中队执法视频统计",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd13",
+                            "path": "/welcome/zfjd/zfjd13",
+                            "template": "/zfjd/zfjd13.vue"
+                        },
+                        {
+                            "name": "大队执法视频统计",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd14",
+                            "path": "/welcome/zfjd/zfjd14",
+                            "template": "/zfjd/zfjd14.vue"
+                        },
+                        {
+                            "name": "随机抽查",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd15",
+                            "path": "/welcome/zfjd/zfjd15",
+                            "template": "/zfjd/zfjd15.vue"
+                        },
+                        {
+                            "name": "执法录像关联",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd02",
+                            "path": "/welcome/zfjd/zfjd02",
+                            "template": "/zfjd/zfjd02.vue"
+                        },
+                        {
+                            "name": "视频查询",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd11",
+                            "path": "/welcome/zfjd/zfjd11",
+                            "template": "/zfjd/zfjd11.vue"
+                        },
+                        {
+                            "name": "违章录像关联成功查询",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd07",
+                            "path": "/welcome/zfjd/zfjd07",
+                            "template": "/zfjd/zfjd07.vue"
+                        },
+                        {
+                            "name": "未成功关联",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd08",
+                            "path": "/welcome/zfjd/zfjd08",
+                            "template": "/zfjd/zfjd08.vue"
+                        },
+                        {
+                            "name": "视频标注",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd10",
+                            "path": "/welcome/zfjd/zfjd10",
+                            "template": "/zfjd/zfjd10.vue"
+                        },
+                        {
+                            "name": "抽查记录",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd16",
+                            "path": "/welcome/zfjd/zfjd16",
+                            "template": "/zfjd/zfjd16.vue"
+                        },
+                        {
+                            "name": "扣分取证信息展示",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd01",
+                            "path": "/welcome/zfjd/zfjd01",
+                            "template": "/zfjd/zfjd01.vue"
+                        },
+                        {
+                            "name": "违章录像修改",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd05",
+                            "path": "/welcome/zfjd/zfjd05",
+                            "template": "/zfjd/zfjd05.vue"
+                        },
+                        {
+                            "name": "违章录像查询",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd03",
+                            "path": "/welcome/zfjd/zfjd03",
+                            "template": "/zfjd/zfjd03.vue"
+                        },
+                        {
+                            "name": "原始录像查询",
+                            "type": "0",
+                            "super": "zfsp",
+                            "m_id": "zfjd04",
+                            "path": "/welcome/zfjd/zfjd04",
+                            "template": "/zfjd/zfjd04.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "数据分析",
+                    "type": "1",
+                    "super": "zfjd",
+                    "m_id": "sjfx",
+                    "children": [
+                        {
+                            "name": "预警信息",
+                            "type": "1",
+                            "super": "sjfx",
+                            "m_id": "yjxx",
+                            "children": [
+                                {
+                                    "name": "异常登录",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx01",
+                                    "path": "/welcome/jdyj/yjxx/yjxx01",
+                                    "template": "/jdyj/yjxx/yjxx01.vue"
+                                },
+                                {
+                                    "name": "年审未备案",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx02",
+                                    "path": "/welcome/jdyj/yjxx/yjxx02",
+                                    "template": "/jdyj/yjxx/yjxx02.vue"
+                                },
+                                {
+                                    "name": "扣分未取证",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx03",
+                                    "path": "/welcome/jdyj/yjxx/yjxx03",
+                                    "template": "/jdyj/yjxx/yjxx03.vue"
+                                },
+                                {
+                                    "name": "满12分驾驶人预警",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx07",
+                                    "path": "/welcome/jdyj/yjxx/yjxx07",
+                                    "template": "/jdyj/yjxx/yjxx07.vue"
+                                },
+                                {
+                                    "name": "重点车违章预警",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx05",
+                                    "path": "/welcome/jdyj/yjxx/yjxx05",
+                                    "template": "/jdyj/yjxx/yjxx05.vue"
+                                },
+                                {
+                                    "name": "高频访问IP预警",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx06",
+                                    "path": "/welcome/jdyj/yjxx/yjxx06",
+                                    "template": "/jdyj/yjxx/yjxx06.vue"
+                                },
+                                {
+                                    "name": "违章处理超扣分人数",
+                                    "type": "0",
+                                    "super": "yjxx",
+                                    "m_id": "yjxx04",
+                                    "path": "/welcome/jdyj/yjxx/yjxx04",
+                                    "template": "/jdyj/yjxx/yjxx04.vue"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "大队违章处理统计",
+                            "type": "0",
+                            "super": "sjfx",
+                            "m_id": "jdyj02",
+                            "path": "/welcome/jdyj/jdyj02",
+                            "template": "/jdyj/jdyj02.vue"
+                        },
+                        {
+                            "name": "监督预警平台",
+                            "type": "0",
+                            "super": "sjfx",
+                            "m_id": "jdyj01",
+                            "path": "/welcome/jdyj/jdyj01",
+                            "template": "/jdyj/jdyj01.vue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "通行证管理",
+            "type": "1",
+            "super": "",
+            "m_id": "txz",
+            "children": [
+                {
+                    "name": "单位管理",
+                    "type": "1",
+                    "super": "txz",
+                    "m_id": "dwgl",
+                    "children": [
+                        {
+                            "name": "单位修改",
+                            "type": "0",
+                            "super": "dwgl",
+                            "m_id": "dwgl03",
+                            "path": "/welcome/txz/dwgl/dwgl03",
+                            "template": "/txz/dwgl/dwgl03.vue"
+                        },
+                        {
+                            "name": "单位添加",
+                            "type": "0",
+                            "super": "dwgl",
+                            "m_id": "dwgl01",
+                            "path": "/welcome/txz/dwgl/dwgl01",
+                            "template": "/txz/dwgl/dwgl01.vue"
+                        },
+                        {
+                            "name": "单位删除",
+                            "type": "0",
+                            "super": "dwgl",
+                            "m_id": "dwgl04",
+                            "path": "/welcome/txz/dwgl/dwgl04",
+                            "template": "/txz/dwgl/dwgl04.vue"
+                        },
+                        {
+                            "name": "单位查询",
+                            "type": "0",
+                            "super": "dwgl",
+                            "m_id": "dwgl02",
+                            "path": "/welcome/txz/dwgl/dwgl02",
+                            "template": "/txz/dwgl/dwgl02.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "车辆管理",
+                    "type": "1",
+                    "super": "txz",
+                    "m_id": "clgl",
+                    "children": [
+                        {
+                            "name": "批量冻结",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl11",
+                            "path": "/welcome/txz/clgl/clgl11",
+                            "template": "/txz/clgl/clgl11.vue"
+                        },
+                        {
+                            "name": "违法数量查询",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl08",
+                            "path": "/welcome/txz/clgl/clgl08",
+                            "template": "/txz/clgl/clgl08.vue"
+                        },
+                        {
+                            "name": "砼罐车违章查询",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl09",
+                            "path": "/welcome/txz/clgl/clgl09",
+                            "template": "/txz/clgl/clgl09.vue"
+                        },
+                        {
+                            "name": "车辆添加",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl01",
+                            "path": "/welcome/txz/clgl/clgl01",
+                            "template": "/txz/clgl/clgl01.vue"
+                        },
+                        {
+                            "name": "删除车辆",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl07",
+                            "path": "/welcome/txz/clgl/clgl07",
+                            "template": "/txz/clgl/clgl07.vue"
+                        },
+                        {
+                            "name": "车辆修改",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl03",
+                            "path": "/welcome/txz/clgl/clgl03",
+                            "template": "/txz/clgl/clgl03.vue"
+                        },
+                        {
+                            "name": "领导审核",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl04",
+                            "path": "/welcome/txz/clgl/clgl04",
+                            "template": "/txz/clgl/clgl04.vue"
+                        },
+                        {
+                            "name": "修改通行证时限",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl05",
+                            "path": "/welcome/txz/clgl/clgl05",
+                            "template": "/txz/clgl/clgl05.vue"
+                        },
+                        {
+                            "name": "修改到期日期",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl06",
+                            "path": "/welcome/txz/clgl/clgl06",
+                            "template": "/txz/clgl/clgl06.vue"
+                        },
+                        {
+                            "name": "车辆查询",
+                            "type": "0",
+                            "super": "clgl",
+                            "m_id": "clgl02",
+                            "path": "/welcome/txz/clgl/clgl02",
+                            "template": "/txz/clgl/clgl02.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "路线批量修改",
+                    "type": "1",
+                    "super": "txz",
+                    "m_id": "lxxg",
+                    "children": [
+                        {
+                            "name": "修改全部车辆",
+                            "type": "0",
+                            "super": "lxxg",
+                            "m_id": "lxxg01",
+                            "path": "/welcome/txz/lxxg/lxxg01",
+                            "template": "/txz/lxxg/lxxg01.vue"
+                        },
+                        {
+                            "name": "修改单位路段",
+                            "type": "0",
+                            "super": "lxxg",
+                            "m_id": "lxxg02",
+                            "path": "/welcome/txz/lxxg/lxxg02",
+                            "template": "/txz/lxxg/lxxg02.vue"
+                        },
+                        {
+                            "name": "修改单位路线",
+                            "type": "0",
+                            "super": "lxxg",
+                            "m_id": "lxxg05",
+                            "path": "/welcome/txz/lxxg/lxxg05",
+                            "template": "/txz/lxxg/lxxg05.vue"
+                        },
+                        {
+                            "name": "修改禁行路段",
+                            "type": "0",
+                            "super": "lxxg",
+                            "m_id": "lxxg03",
+                            "path": "/welcome/txz/lxxg/lxxg03",
+                            "template": "/txz/lxxg/lxxg03.vue"
+                        },
+                        {
+                            "name": "修改禁行时间",
+                            "type": "0",
+                            "super": "lxxg",
+                            "m_id": "lxxg04",
+                            "path": "/welcome/txz/lxxg/lxxg04",
+                            "template": "/txz/lxxg/lxxg04.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "证件管理",
+                    "type": "1",
+                    "super": "txz",
+                    "m_id": "zjgl",
+                    "children": [
+                        {
+                            "name": "查询",
+                            "type": "0",
+                            "super": "zjgl",
+                            "m_id": "zjgl02",
+                            "path": "/welcome/txz/zjgl/zjgl02",
+                            "template": "/txz/zjgl/zjgl02.vue"
+                        },
+                        {
+                            "name": "打印",
+                            "type": "0",
+                            "super": "zjgl",
+                            "m_id": "zjgl01",
+                            "path": "/welcome/txz/zjgl/zjgl01",
+                            "template": "/txz/zjgl/zjgl01.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "统计报表",
+                    "type": "1",
+                    "super": "txz",
+                    "m_id": "tjbb",
+                    "children": [
+                        {
+                            "name": "按照通行证类别统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb11",
+                            "path": "/welcome/txz/tjbb/tjbb11",
+                            "template": "/txz/tjbb/tjbb11.vue"
+                        },
+                        {
+                            "name": "按照车辆性质分类统计数量",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb10",
+                            "path": "/welcome/txz/tjbb/tjbb10",
+                            "template": "/txz/tjbb/tjbb10.vue"
+                        },
+                        {
+                            "name": "车辆办证统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb01",
+                            "path": "/welcome/txz/tjbb/tjbb01",
+                            "template": "/txz/tjbb/tjbb01.vue"
+                        },
+                        {
+                            "name": "打印数量统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb03",
+                            "path": "/welcome/txz/tjbb/tjbb03",
+                            "template": "/txz/tjbb/tjbb03.vue"
+                        },
+                        {
+                            "name": "按照单位性质统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb12",
+                            "path": "/welcome/txz/tjbb/tjbb12",
+                            "template": "/txz/tjbb/tjbb12.vue"
+                        },
+                        {
+                            "name": "证件有效期统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb05",
+                            "path": "/welcome/txz/tjbb/tjbb05",
+                            "template": "/txz/tjbb/tjbb05.vue"
+                        },
+                        {
+                            "name": "路线统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb06",
+                            "path": "/welcome/txz/tjbb/tjbb06",
+                            "template": "/txz/tjbb/tjbb06.vue"
+                        },
+                        {
+                            "name": "车辆证件及对应车号统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb08",
+                            "path": "/welcome/txz/tjbb/tjbb08",
+                            "template": "/txz/tjbb/tjbb08.vue"
+                        },
+                        {
+                            "name": "通行证标题统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb09",
+                            "path": "/welcome/txz/tjbb/tjbb09",
+                            "template": "/txz/tjbb/tjbb09.vue"
+                        },
+                        {
+                            "name": "证件类别统计",
+                            "type": "0",
+                            "super": "tjbb",
+                            "m_id": "tjbb04",
+                            "path": "/welcome/txz/tjbb/tjbb04",
+                            "template": "/txz/tjbb/tjbb04.vue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "数据接口管理",
+            "type": "1",
+            "super": "",
+            "m_id": "jk",
+            "children": [
+                {
+                    "name": "接口访问统计",
+                    "type": "0",
+                    "super": "jk",
+                    "m_id": "jk0001",
+                    "path": "/welcome/jk/jk0001",
+                    "template": "/jk/jk0001.vue"
+                },
+                {
+                    "name": "照片访问开关",
+                    "type": "0",
+                    "super": "jk",
+                    "m_id": "jk0002",
+                    "path": "/welcome/jk/jk0002",
+                    "template": "/jk/jk0002.vue"
+                }
+            ]
+        },
+        {
+            "name": "违法扣分取证",
+            "type": "1",
+            "super": "",
+            "m_id": "kfqz",
+            "children": [
+                {
+                    "name": "大队未取证违法记录查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz12",
+                    "path": "/welcome/kfqz/kfqz12",
+                    "template": "/kfqz/kfqz12.vue"
+                },
+                {
+                    "name": "支队未取证违法记录查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz11",
+                    "path": "/welcome/kfqz/kfqz11",
+                    "template": "/kfqz/kfqz11.vue"
+                },
+                {
+                    "name": "违法补票",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz08",
+                    "path": "/welcome/kfqz/kfqz08",
+                    "template": "/kfqz/kfqz08.vue"
+                },
+                {
+                    "name": "驾驶人诚信查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz04",
+                    "path": "/welcome/kfqz/kfqz04",
+                    "template": "/kfqz/kfqz04.vue"
+                },
+                {
+                    "name": "机动车诚信查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz03",
+                    "path": "/welcome/kfqz/kfqz03",
+                    "template": "/kfqz/kfqz03.vue"
+                },
+                {
+                    "name": "取证统计审核",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz06",
+                    "path": "/welcome/kfqz/kfqz06",
+                    "template": "/kfqz/kfqz06.vue"
+                },
+                {
+                    "name": "取证黑名单",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz05",
+                    "path": "/welcome/kfqz/kfqz05",
+                    "template": "/kfqz/kfqz05.vue"
+                },
+                {
+                    "name": "证据采集",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz02",
+                    "path": "/welcome/kfqz/kfqz02",
+                    "template": "/kfqz/kfqz02.vue"
+                },
+                {
+                    "name": "信息查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz01",
+                    "path": "/welcome/kfqz/kfqz01",
+                    "template": "/kfqz/kfqz01.vue"
+                },
+                {
+                    "name": "未采集查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz09",
+                    "path": "/welcome/kfqz/kfqz09",
+                    "template": "/kfqz/kfqz09.vue"
+                },
+                {
+                    "name": "扣分取证查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz10",
+                    "path": "/welcome/kfqz/kfqz10",
+                    "template": "/kfqz/kfqz10.vue"
+                },
+                {
+                    "name": "车辆与违法查询",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz13",
+                    "path": "/welcome/kfqz/kfqz13",
+                    "template": "/kfqz/kfqz13.vue"
+                },
+                {
+                    "name": "岗位统计",
+                    "type": "0",
+                    "super": "kfqz",
+                    "m_id": "kfqz07",
+                    "path": "/welcome/kfqz/kfqz07",
+                    "template": "/kfqz/kfqz07.vue"
+                }
+            ]
+        },
+        {
+            "name": "360抓拍",
+            "type": "1",
+            "super": "",
+            "m_id": "pic",
+            "children": [
+                {
+                    "name": "违法行为统计",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic008",
+                    "path": "/welcome/pic/pic008",
+                    "template": "/pic/pic008.vue"
+                },
+                {
+                    "name": "分类修改",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic009",
+                    "path": "/welcome/pic/pic009",
+                    "template": "/pic/pic009.vue"
+                },
+                {
+                    "name": "发布管理",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic007",
+                    "path": "/welcome/pic/pic007",
+                    "template": "/pic/pic007.vue"
+                },
+                {
+                    "name": "360抓拍上传统计",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic006",
+                    "path": "/welcome/pic/pic006",
+                    "template": "/pic/pic006.vue"
+                },
+                {
+                    "name": "筛选人员管理",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic003",
+                    "path": "/welcome/pic/pic003",
+                    "template": "/pic/pic003.vue"
+                },
+                {
+                    "name": "360抓拍上传",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic001",
+                    "path": "/welcome/pic/pic001",
+                    "template": "/pic/pic001.vue"
+                },
+                {
+                    "name": "360抓拍筛选",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic002",
+                    "path": "/welcome/pic/pic002",
+                    "template": "/pic/pic002.vue"
+                },
+                {
+                    "name": "重新提交",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic005",
+                    "path": "/welcome/pic/pic005",
+                    "template": "/pic/pic005.vue"
+                },
+                {
+                    "name": "白名单管理",
+                    "type": "0",
+                    "super": "pic",
+                    "m_id": "pic004",
+                    "path": "/welcome/pic/pic004",
+                    "template": "/pic/pic004.vue"
+                }
+            ]
+        },
+        {
+            "name": "重点驾驶人管理",
+            "type": "1",
+            "super": "",
+            "m_id": "zdjsr",
+            "children": [
+                {
+                    "name": "已关联驾驶人查询",
+                    "type": "0",
+                    "super": "zdjsr",
+                    "m_id": "zdjsr3",
+                    "path": "/welcome/zdjsr/zdjsr3",
+                    "template": "/zdjsr/zdjsr3.vue"
+                },
+                {
+                    "name": "驾驶人采集率",
+                    "type": "0",
+                    "super": "zdjsr",
+                    "m_id": "zdjsr2",
+                    "path": "/welcome/zdjsr/zdjsr2",
+                    "template": "/zdjsr/zdjsr2.vue"
+                },
+                {
+                    "name": "未关联驾驶人查询",
+                    "type": "0",
+                    "super": "zdjsr",
+                    "m_id": "zdjsr1",
+                    "path": "/welcome/zdjsr/zdjsr1",
+                    "template": "/zdjsr/zdjsr1.vue"
+                }
+            ]
+        },
+        {
+            "name": "招标采购管理",
+            "type": "1",
+            "super": "",
+            "m_id": "zbgl",
+            "children": [
+                {
+                    "name": "招标采购管理",
+                    "type": "1",
+                    "super": "zbgl",
+                    "m_id": "zbcggl",
+                    "children": [
+                        {
+                            "name": "招标采购信息管理",
+                            "type": "0",
+                            "super": "zbcggl",
+                            "m_id": "zbgl01",
+                            "path": "/welcome/zbgl/zbxxgl001",
+                            "template": "/zbgl/zbxxgl001.vue"
+                        },
+                        {
+                            "name": "招标采购信息查询",
+                            "type": "0",
+                            "super": "zbcggl",
+                            "m_id": "zbgl02",
+                            "path": "/welcome/zbgl/zbxxgl002",
+                            "template": "/zbgl/zbxxgl002.vue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "电子围栏",
+            "type": "1",
+            "super": "",
+            "m_id": "dzwl",
+            "children": [
+                {
+                    "name": "民警排班",
+                    "type": "0",
+                    "super": "dzwl",
+                    "m_id": "mjpb01",
+                    "path": "/welcome/jwt/mjpb01",
+                    "template": "/jwt/mjpb01.vue"
+                },
+                {
+                    "name": "签到展示",
+                    "type": "0",
+                    "super": "dzwl",
+                    "m_id": "qdzs01",
+                    "path": "/welcome/jwt/qdzs01",
+                    "template": "/jwt/qdzs01.vue"
+                }
+            ]
+        },
+        {
+            "name": "任务派发",
+            "type": "1",
+            "super": "",
+            "m_id": "rwff",
+            "children": [
+                {
+                    "name": "任务签收",
+                    "type": "0",
+                    "super": "rwff",
+                    "m_id": "rwqs01",
+                    "path": "/welcome/rwff/rwqs",
+                    "template": "/rwff/rwqs.vue"
+                },
+                {
+                    "name": "任务下达",
+                    "type": "0",
+                    "super": "rwff",
+                    "m_id": "rwxd01",
+                    "path": "/welcome/rwff/rwxd",
+                    "template": "/rwff/rwxd.vue"
+                }
+            ]
+        },
+        {
+            "name": "交警系统绩效考核",
+            "type": "1",
+            "super": "",
+            "m_id": "jxkh",
+            "children": [
+                {
+                    "name": "考核得分录入",
+                    "type": "1",
+                    "super": "jxkh",
+                    "m_id": "khdf",
+                    "children": [
+                        {
+                            "name": "机动车守法率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf02",
+                            "path": "/welcome/jxkh/khdf/khdf02",
+                            "template": "/jxkh/khdf/khdf02.vue"
+                        },
+                        {
+                            "name": "逃逸亡人案件侦破率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf28",
+                            "path": "/welcome/jxkh/khdf/khdf28",
+                            "template": "/jxkh/khdf/khdf28.vue"
+                        },
+                        {
+                            "name": "其他加（扣）分情形",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf39",
+                            "path": "/welcome/jxkh/khdf/khdf39",
+                            "template": "/jxkh/khdf/khdf39.vue"
+                        },
+                        {
+                            "name": "支队专项重点工作",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf38",
+                            "path": "/welcome/jxkh/khdf/khdf38",
+                            "template": "/jxkh/khdf/khdf38.vue"
+                        },
+                        {
+                            "name": "队伍管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf37",
+                            "path": "/welcome/jxkh/khdf/khdf37",
+                            "template": "/jxkh/khdf/khdf37.vue"
+                        },
+                        {
+                            "name": "执法建设",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf36",
+                            "path": "/welcome/jxkh/khdf/khdf36",
+                            "template": "/jxkh/khdf/khdf36.vue"
+                        },
+                        {
+                            "name": "受理复核案件",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf34",
+                            "path": "/welcome/jxkh/khdf/khdf34",
+                            "template": "/jxkh/khdf/khdf34.vue"
+                        },
+                        {
+                            "name": "快速处理交通事故数量",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf33",
+                            "path": "/welcome/jxkh/khdf/khdf33",
+                            "template": "/jxkh/khdf/khdf33.vue"
+                        },
+                        {
+                            "name": "简易程序处理交通事故数量",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf32",
+                            "path": "/welcome/jxkh/khdf/khdf32",
+                            "template": "/jxkh/khdf/khdf32.vue"
+                        },
+                        {
+                            "name": "事故接处警预警",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf31",
+                            "path": "/welcome/jxkh/khdf/khdf31",
+                            "template": "/jxkh/khdf/khdf31.vue"
+                        },
+                        {
+                            "name": "逃逸案件侦破率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf30",
+                            "path": "/welcome/jxkh/khdf/khdf30",
+                            "template": "/jxkh/khdf/khdf30.vue"
+                        },
+                        {
+                            "name": "逃逸案件侦破数",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf29",
+                            "path": "/welcome/jxkh/khdf/khdf29",
+                            "template": "/jxkh/khdf/khdf29.vue"
+                        },
+                        {
+                            "name": "非机动车守法率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf03",
+                            "path": "/welcome/jxkh/khdf/khdf03",
+                            "template": "/jxkh/khdf/khdf03.vue"
+                        },
+                        {
+                            "name": "行人守法率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf04",
+                            "path": "/welcome/jxkh/khdf/khdf04",
+                            "template": "/jxkh/khdf/khdf04.vue"
+                        },
+                        {
+                            "name": "机动车动态管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf05",
+                            "path": "/welcome/jxkh/khdf/khdf05",
+                            "template": "/jxkh/khdf/khdf05.vue"
+                        },
+                        {
+                            "name": "非机动车动态管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf06",
+                            "path": "/welcome/jxkh/khdf/khdf06",
+                            "template": "/jxkh/khdf/khdf06.vue"
+                        },
+                        {
+                            "name": "行人动态管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf07",
+                            "path": "/welcome/jxkh/khdf/khdf07",
+                            "template": "/jxkh/khdf/khdf07.vue"
+                        },
+                        {
+                            "name": "禁行车辆管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf08",
+                            "path": "/welcome/jxkh/khdf/khdf08",
+                            "template": "/jxkh/khdf/khdf08.vue"
+                        },
+                        {
+                            "name": "非交通占道行为",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf09",
+                            "path": "/welcome/jxkh/khdf/khdf09",
+                            "template": "/jxkh/khdf/khdf09.vue"
+                        },
+                        {
+                            "name": "排查维护交通设施",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf10",
+                            "path": "/welcome/jxkh/khdf/khdf10",
+                            "template": "/jxkh/khdf/khdf10.vue"
+                        },
+                        {
+                            "name": "交通拥堵疏导",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf11",
+                            "path": "/welcome/jxkh/khdf/khdf11",
+                            "template": "/jxkh/khdf/khdf11.vue"
+                        },
+                        {
+                            "name": "执行警卫任务",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf12",
+                            "path": "/welcome/jxkh/khdf/khdf12",
+                            "template": "/jxkh/khdf/khdf12.vue"
+                        },
+                        {
+                            "name": "服务大厅业务量",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf13",
+                            "path": "/welcome/jxkh/khdf/khdf13",
+                            "template": "/jxkh/khdf/khdf13.vue"
+                        },
+                        {
+                            "name": "个人面签注册率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf14",
+                            "path": "/welcome/jxkh/khdf/khdf14",
+                            "template": "/jxkh/khdf/khdf14.vue"
+                        },
+                        {
+                            "name": "机动车静态交通管理",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf15",
+                            "path": "/welcome/jxkh/khdf/khdf15",
+                            "template": "/jxkh/khdf/khdf15.vue"
+                        },
+                        {
+                            "name": "执法记录仪应用",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf16",
+                            "path": "/welcome/jxkh/khdf/khdf16",
+                            "template": "/jxkh/khdf/khdf16.vue"
+                        },
+                        {
+                            "name": "缉查布控系统应用",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf17",
+                            "path": "/welcome/jxkh/khdf/khdf17",
+                            "template": "/jxkh/khdf/khdf17.vue"
+                        },
+                        {
+                            "name": "采用信息",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf18",
+                            "path": "/welcome/jxkh/khdf/khdf18",
+                            "template": "/jxkh/khdf/khdf18.vue"
+                        },
+                        {
+                            "name": "“五进”工作",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf21",
+                            "path": "/welcome/jxkh/khdf/khdf21",
+                            "template": "/jxkh/khdf/khdf21.vue"
+                        },
+                        {
+                            "name": "传统媒体宣传",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf22",
+                            "path": "/welcome/jxkh/khdf/khdf22",
+                            "template": "/jxkh/khdf/khdf22.vue"
+                        },
+                        {
+                            "name": "宣传曝光",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf23",
+                            "path": "/welcome/jxkh/khdf/khdf23",
+                            "template": "/jxkh/khdf/khdf23.vue"
+                        },
+                        {
+                            "name": "自媒体宣传",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf24",
+                            "path": "/welcome/jxkh/khdf/khdf24",
+                            "template": "/jxkh/khdf/khdf24.vue"
+                        },
+                        {
+                            "name": "交管综合平台应用",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf26",
+                            "path": "/welcome/jxkh/khdf/khdf26",
+                            "template": "/jxkh/khdf/khdf26.vue"
+                        },
+                        {
+                            "name": "逃逸亡人案件侦破数",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf27",
+                            "path": "/welcome/jxkh/khdf/khdf27",
+                            "template": "/jxkh/khdf/khdf27.vue"
+                        },
+                        {
+                            "name": "见警率",
+                            "type": "0",
+                            "super": "khdf",
+                            "m_id": "khdf01",
+                            "path": "/welcome/jxkh/khdf/khdf01",
+                            "template": "/jxkh/khdf/khdf01.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "数据红绿灯绩效考核",
+                    "type": "0",
+                    "super": "jxkh",
+                    "m_id": "zhpm02",
+                    "path": "/welcome/jdyj/khgz/zhpm02",
+                    "template": "/jdyj/khgz/zhpm02.vue"
+                },
+                {
+                    "name": "综合排名信息",
+                    "type": "0",
+                    "super": "jxkh",
+                    "m_id": "zhpm01",
+                    "path": "/welcome/jdyj/khgz/zhpm01",
+                    "template": "/jdyj/khgz/zhpm01.vue"
+                }
+            ]
+        },
+        {
+            "name": "信息查询",
+            "type": "1",
+            "super": "",
+            "m_id": "xxcx",
+            "children": [
+                {
+                    "name": "机动车查询",
+                    "type": "0",
+                    "super": "xxcx",
+                    "m_id": "xxcx02",
+                    "path": "/welcome/xxcx/xxcx02",
+                    "template": "/xxcx/xxcx02.vue"
+                },
+                {
+                    "name": "事故查询",
+                    "type": "0",
+                    "super": "xxcx",
+                    "m_id": "xxcx04",
+                    "path": "/welcome/xxcx/xxcx04",
+                    "template": "/xxcx/xxcx04.vue"
+                },
+                {
+                    "name": "违法照片查询",
+                    "type": "0",
+                    "super": "xxcx",
+                    "m_id": "xxcx01",
+                    "path": "/welcome/xxcx/xxcx01",
+                    "template": "/xxcx/xxcx01.vue"
+                },
+                {
+                    "name": "驾驶证查询",
+                    "type": "0",
+                    "super": "xxcx",
+                    "m_id": "xxcx03",
+                    "path": "/welcome/xxcx/xxcx03",
+                    "template": "/xxcx/xxcx03.vue"
+                }
+            ]
+        },
+        {
+            "name": "重点车辆管理",
+            "type": "1",
+            "super": "",
+            "m_id": "zdcl",
+            "children": [
+                {
+                    "name": "车辆管理",
+                    "type": "1",
+                    "super": "zdcl",
+                    "m_id": "glcl",
+                    "children": [
+                        {
+                            "name": "移交统计",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl09",
+                            "path": "/welcome/zdcl/glcl/glcl09",
+                            "template": "/zdcl/glcl/glcl09.vue"
+                        },
+                        {
+                            "name": "接收历史查询",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl10",
+                            "path": "/welcome/zdcl/glcl/glcl10",
+                            "template": "/zdcl/glcl/glcl10.vue"
+                        },
+                        {
+                            "name": "车辆认领",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl01",
+                            "path": "/welcome/zdcl/glcl/glcl01",
+                            "template": "/zdcl/glcl/glcl01.vue"
+                        },
+                        {
+                            "name": "强制分配",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl02",
+                            "path": "/welcome/zdcl/glcl/glcl02",
+                            "template": "/zdcl/glcl/glcl02.vue"
+                        },
+                        {
+                            "name": "Excel查询",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl08",
+                            "path": "/welcome/zdcl/glcl/glcl08",
+                            "template": "/zdcl/glcl/glcl08.vue"
+                        },
+                        {
+                            "name": "车辆移交",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl04",
+                            "path": "/welcome/zdcl/glcl/glcl04",
+                            "template": "/zdcl/glcl/glcl04.vue"
+                        },
+                        {
+                            "name": "车辆接收",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl05",
+                            "path": "/welcome/zdcl/glcl/glcl05",
+                            "template": "/zdcl/glcl/glcl05.vue"
+                        },
+                        {
+                            "name": "信息预警",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl06",
+                            "path": "/welcome/zdcl/glcl/glcl06",
+                            "template": "/zdcl/glcl/glcl06.vue"
+                        },
+                        {
+                            "name": "信息查询",
+                            "type": "0",
+                            "super": "glcl",
+                            "m_id": "glcl03",
+                            "path": "/welcome/zdcl/glcl/glcl03",
+                            "template": "/zdcl/glcl/glcl03.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "信息预警",
+                    "type": "1",
+                    "super": "zdcl",
+                    "m_id": "xxyj",
+                    "children": [
+                        {
+                            "name": "逾期未年审的车辆",
+                            "type": "0",
+                            "super": "xxyj",
+                            "m_id": "yqwns",
+                            "path": "/welcome/zdcl/xxyj/quwns",
+                            "template": "/zdcl/xxyj/quwns.vue"
+                        },
+                        {
+                            "name": "严重违法行为",
+                            "type": "0",
+                            "super": "xxyj",
+                            "m_id": "yzwf",
+                            "path": "/welcome/zdcl/xxyj/yzwf",
+                            "template": "/zdcl/xxyj/yzwf.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "备案信息",
+                    "type": "1",
+                    "super": "zdcl",
+                    "m_id": "baxx",
+                    "children": [
+                        {
+                            "name": "备案信息更改",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx06",
+                            "path": "/welcome/zdcl/baxx/baxx06",
+                            "template": "/zdcl/baxx/baxx06.vue"
+                        },
+                        {
+                            "name": "备案录入",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx01",
+                            "path": "/welcome/zdcl/baxx/baxx01",
+                            "template": "/zdcl/baxx/baxx01.vue"
+                        },
+                        {
+                            "name": "备案明细统计",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx04",
+                            "path": "/welcome/zdcl/baxx/baxx04",
+                            "template": "/zdcl/baxx/baxx04.vue"
+                        },
+                        {
+                            "name": "备案信息查询",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx03",
+                            "path": "/welcome/zdcl/baxx/baxx03",
+                            "template": "/zdcl/baxx/baxx03.vue"
+                        },
+                        {
+                            "name": "未审核年审",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx05",
+                            "path": "/welcome/zdcl/baxx/baxx05",
+                            "template": "/zdcl/baxx/baxx05.vue"
+                        },
+                        {
+                            "name": "备案信息核查",
+                            "type": "0",
+                            "super": "baxx",
+                            "m_id": "baxx02",
+                            "path": "/welcome/zdcl/baxx/baxx02",
+                            "template": "/zdcl/baxx/baxx02.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "转出、注销统计",
+                    "type": "1",
+                    "super": "zdcl",
+                    "m_id": "zczx",
+                    "children": [
+                        {
+                            "name": "明细",
+                            "type": "0",
+                            "super": "zczx",
+                            "m_id": "zczx03",
+                            "path": "/welcome/zdcl/zczx/zczx03",
+                            "template": "/zdcl/zczx/zczx03.vue"
+                        },
+                        {
+                            "name": "转出、注销统计",
+                            "type": "0",
+                            "super": "zczx",
+                            "m_id": "zczx02",
+                            "path": "/welcome/zdcl/zczx/zczx02",
+                            "template": "/zdcl/zczx/zczx02.vue"
+                        },
+                        {
+                            "name": "注销、转出提醒",
+                            "type": "0",
+                            "super": "zczx",
+                            "m_id": "zczx01",
+                            "path": "/welcome/zdcl/zczx/zczx01",
+                            "template": "/zdcl/zczx/zczx01.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "三率统计",
+                    "type": "1",
+                    "super": "zdcl",
+                    "m_id": "sltj",
+                    "children": [
+                        {
+                            "name": "检验率",
+                            "type": "0",
+                            "super": "sltj",
+                            "m_id": "sltj01",
+                            "path": "/welcome/zdcl/sltj/sltj01",
+                            "template": "/zdcl/sltj/sltj01.vue"
+                        },
+                        {
+                            "name": "清零率",
+                            "type": "0",
+                            "super": "sltj",
+                            "m_id": "sltj02",
+                            "path": "/welcome/zdcl/sltj/sltj02",
+                            "template": "/zdcl/sltj/sltj02.vue"
+                        },
+                        {
+                            "name": "注销率",
+                            "type": "0",
+                            "super": "sltj",
+                            "m_id": "sltj03",
+                            "path": "/welcome/zdcl/sltj/sltj03",
+                            "template": "/zdcl/sltj/sltj03.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "企业统计",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl06",
+                    "path": "/welcome/zdcl/zdcl06",
+                    "template": "/zdcl/zdcl06.vue"
+                },
+                {
+                    "name": "统计报表",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "cltjbb",
+                    "path": "/welcome/zdcl/cltjbb",
+                    "template": "/zdcl/cltjbb.vue"
+                },
+                {
+                    "name": "统计查询",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl01",
+                    "path": "/welcome/zdcl/zdcl01",
+                    "template": "/zdcl/zdcl01.vue"
+                },
+                {
+                    "name": "车辆查询",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl02",
+                    "path": "/welcome/zdcl/zdcl02",
+                    "template": "/zdcl/zdcl02.vue"
+                },
+                {
+                    "name": "未录入车辆查询",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl03",
+                    "path": "/welcome/zdcl/zdcl03",
+                    "template": "/zdcl/zdcl03.vue"
+                },
+                {
+                    "name": "企业微信管理",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl07",
+                    "path": "/welcome/zdcl/zdcl07",
+                    "template": "/zdcl/zdcl07.vue"
+                },
+                {
+                    "name": "跨部门企业统计",
+                    "type": "0",
+                    "super": "zdcl",
+                    "m_id": "zdcl08",
+                    "path": "/welcome/zdcl/zdcl08",
+                    "template": "/zdcl/zdcl08.vue"
+                }
+            ]
+        },
+        {
+            "name": "违法信息管理",
+            "type": "1",
+            "super": "",
+            "m_id": "wfcx",
+            "children": [
+                {
+                    "name": "违法统计",
+                    "type": "1",
+                    "super": "wfcx",
+                    "m_id": "wftj",
+                    "children": [
+                        {
+                            "name": "强制措施",
+                            "type": "0",
+                            "super": "wftj",
+                            "m_id": "wftj01",
+                            "path": "/welcome/wfcx/wftj/wftj01",
+                            "template": "/wfcx/wftj/wftj01.vue"
+                        },
+                        {
+                            "name": "月报表-大队-现场",
+                            "type": "0",
+                            "super": "wftj",
+                            "m_id": "wftj04",
+                            "path": "/welcome/wfcx/wftj/wftj04",
+                            "template": "/wfcx/wftj/wftj04.vue"
+                        },
+                        {
+                            "name": "非现场违法统计",
+                            "type": "0",
+                            "super": "wftj",
+                            "m_id": "wftj03",
+                            "path": "/welcome/wfcx/wftj/wftj03",
+                            "template": "/wfcx/wftj/wftj03.vue"
+                        },
+                        {
+                            "name": "月报表-大队-非现场",
+                            "type": "0",
+                            "super": "wftj",
+                            "m_id": "wftj05",
+                            "path": "/welcome/wfcx/wftj/wftj05",
+                            "template": "/wfcx/wftj/wftj05.vue"
+                        },
+                        {
+                            "name": "现场违法统计",
+                            "type": "0",
+                            "super": "wftj",
+                            "m_id": "wftj02",
+                            "path": "/welcome/wfcx/wftj/wftj02",
+                            "template": "/wfcx/wftj/wftj02.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "非法改单",
+                    "type": "1",
+                    "super": "wfcx",
+                    "m_id": "wfcx00",
+                    "children": [
+                        {
+                            "name": "改分数量详细",
+                            "type": "0",
+                            "super": "wfcx00",
+                            "m_id": "wfcx03",
+                            "path": "/welcome/wfcx/wfcx03",
+                            "template": "/wfcx/wfcx03.vue"
+                        },
+                        {
+                            "name": "改单总数详细",
+                            "type": "0",
+                            "super": "wfcx00",
+                            "m_id": "wfcx02",
+                            "path": "/welcome/wfcx/wfcx02",
+                            "template": "/wfcx/wfcx02.vue"
+                        },
+                        {
+                            "name": "非法改单统计",
+                            "type": "0",
+                            "super": "wfcx00",
+                            "m_id": "wfcx01",
+                            "path": "/welcome/wfcx/wfcx01",
+                            "template": "/wfcx/wfcx01.vue"
+                        }
+                    ]
+                },
+                {
+                    "name": "违法照片",
+                    "type": "1",
+                    "super": "wfcx",
+                    "m_id": "eye",
+                    "children": [
+                        {
+                            "name": "修改电子眼照片",
+                            "type": "0",
+                            "super": "eye",
+                            "m_id": "eye001",
+                            "path": "/welcome/wfcx/eye/eye001",
+                            "template": "/wfcx/eye/eye001.vue"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

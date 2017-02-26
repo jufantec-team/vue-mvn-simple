@@ -1,0 +1,13 @@
+.DS_Store
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+template/target/
+
+template/node_modules/
+template/dist/
+template/npm-debug.log               
